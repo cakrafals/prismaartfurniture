@@ -255,7 +255,7 @@ input, textarea, select {
 }
 
 .btn.btn-main {
-    background-color: #ffbb00;
+    background-color: #474745;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
@@ -266,7 +266,7 @@ input, textarea, select {
 }
 
 .btn.btn-main:hover {
-    background-color: #3a3d45;
+    background-color: #8a8a0a;
 }
 
 .btn.btn-main, .btn.btn-main:hover, .btn.btn-main:focus, .btn.btn-main:active {

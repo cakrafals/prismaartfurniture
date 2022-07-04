@@ -9,7 +9,7 @@
 }
 
 .detailp, .deskripsi{
-   font-family: "Times New Roman", Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 14px;
 }
 
@@ -3691,15 +3691,16 @@ cards
 .card {
   background-color: white;
   border-radius: 0.25rem;
-  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  border: 10px;
 }
 
 .card_content {
   padding: 1rem;
-  background: linear-gradient(#ffb247 30%, #ff7e80 100%);
+  background-color: #363534;
 }
 
 .card_title {
@@ -4043,10 +4044,10 @@ cards
 }
 
 .stretcher-wrapper .stretcher .stretcher-item.more .more-icon {
-    font-size: 70px;
+    font-size: 50px;
     color: white;
     position: absolute;
-    left: 50%;
+    left: 23%;
     top: 50%;
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -4104,7 +4105,7 @@ cards
 
 @media (min-width: 992px) {
     .stretcher-wrapper .stretcher .stretcher-item.more, .stretcher-wrapper .stretcher .stretcher-item.more.inactive {
-        width: 8%;
+        width: 5%;
     }
     .stretcher-wrapper .stretcher .stretcher-item.more.active {
         width: 28%;
@@ -4120,12 +4121,12 @@ cards
 
 @media (min-width: 992px) {
     .stretcher-wrapper .stretcher .stretcher-item {
-        width: 23%;
+        width: 20%;
         height: 100%;
         display: inline-block;
     }
     .stretcher-wrapper .stretcher .stretcher-item.inactive {
-        width: 18%;
+        width: 15%;
     }
     .stretcher-wrapper .stretcher .stretcher-item.active {
         width: 38%;
@@ -4180,7 +4181,7 @@ cards
     position: absolute;
     z-index: 9;
     font-size: initial;
-    text-align: justify;
+    text-align: center;
     padding: 20px 10px;
     width: 100%;
     left: 0;
