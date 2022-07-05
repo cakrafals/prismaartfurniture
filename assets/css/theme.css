@@ -2516,6 +2516,7 @@ nav .cart-wrapper.open {
 
 .products article .figure-grid .text .description {
     display: none;
+    padding-top: 10px;
 }
 
 .products article .figure-block .text .description {
@@ -3668,7 +3669,8 @@ cards
   flex-wrap: wrap;
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding:  0px;
+
 }
 
 .cards_item {
